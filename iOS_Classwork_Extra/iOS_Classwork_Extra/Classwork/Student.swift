@@ -15,19 +15,6 @@ import Foundation
 /// 2. track: String
 /// 3. gender: String
 
-struct Student{
-    var name, track, gender: String
-    func imageName() -> String {
-        gender == "boy" ? "boyProfileImage" : "girlProfileImage"
-    }
-}
-
-var students: [Student] = [.init(name: "Saleh", track: "iOS", gender: "boy"),
-                           .init(name: "Moh", track: "Android", gender: "boy"),
-                           .init(name: "Hala", track: "Web", gender: "girl")]
-
-
-
 
 // MARK:  2️⃣ قم بإنشاء دالة بداخل الهيكل باسم imageName()
 /**
@@ -43,8 +30,20 @@ var students: [Student] = [.init(name: "Saleh", track: "iOS", gender: "boy"),
 
 
 
-
-
+struct Student{
+    var name, track, gender: String
+    func imageName() -> String {
+        if gender == "boy" {
+            return "boyProfileImage"
+        }
+        else if gender == "girl"{
+            return "girlProfileImage"
+        }
+        else{
+            return "profileimage2"
+        }
+    }
+}
 
 
 
@@ -58,12 +57,14 @@ var students: [Student] = [.init(name: "Saleh", track: "iOS", gender: "boy"),
 
 // كتبنالك ياها عشان لا تقول (مووعاريف أكتب مصفوففة وااااع 😭)
 // امسح الكود واكتبه بطريقتك المبدعة 😍
-//var students: [Student] =
-//    [
-//        Student(...
-//        Student(...
-//        Student(...
-//    ]
+
+var students: [Student] = [Student(name: "Saleh", track: "iOS", gender: "boy"),
+                           Student(name: "Moh", track: "Android", gender: "boy"),
+                           Student(name: "Hala", track: "Web", gender: "girl")]
+
+
+
+
 
 
 
