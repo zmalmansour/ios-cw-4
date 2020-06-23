@@ -15,8 +15,16 @@ import Foundation
 /// 2. track: String
 /// 3. gender: String
 
-//struct ...
+struct Student{
+    var name, track, gender: String
+    func imageName() -> String {
+        gender == "boy" ? "boyProfileImage" : "girlProfileImage"
+    }
+}
 
+var students: [Student] = [.init(name: "Saleh", track: "iOS", gender: "boy"),
+                           .init(name: "Moh", track: "Android", gender: "boy"),
+                           .init(name: "Hala", track: "Web", gender: "girl")]
 
 
 
