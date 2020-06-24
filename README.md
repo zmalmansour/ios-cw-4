@@ -24,8 +24,8 @@
 هناك صورة لولد باسم  boyProfileImage
 وهناك صورة بنت باسم girlProfileImage
 
-![people](https://user-images.githubusercontent.com/64652496/85558307-4b3a8300-b631-11ea-9f73-1996ce740081.png)
-![girl](https://user-images.githubusercontent.com/64652496/85558254-3f4ec100-b631-11ea-9355-e0288e131ab3.png)
+![people](https://user-images.githubusercontent.com/64652496/85558307-4b3a8300-b631-11ea-9f73-1996ce740081.png | width=350)
+![girl](https://user-images.githubusercontent.com/64652496/85558254-3f4ec100-b631-11ea-9355-e0288e131ab3.png | width=350)
 
 7.   3️⃣  قم بكتابة مصفوفة من نوع Student Struct  و تحتوي على ثلاث مطاليب 
 - name: ريم خالد,  track: iOS,  gender: girl
