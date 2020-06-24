@@ -30,8 +30,7 @@
 - name: صالح شهاب,  track: Web,  gender: boy
 - name:محمد علي,  track: Android,  gender: boy
 
-> هكذا **students** تكتب وتعرف مصفوفة من نوع 
-
+هكذا **students** ملاحظة😊: تكتب وتعرف مصفوفة من نوع 
 var **students: [Student]** =[ Student(...),Student(...),Student(...) ]
 
 
