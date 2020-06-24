@@ -30,8 +30,15 @@
 - name: صالح شهاب,  track: Web,  gender: boy
 - name:محمد علي,  track: Android,  gender: boy
 
-هكذا **students** ملاحظة😊: تكتب وتعرف مصفوفة من نوع 
-var **students: [Student]** =[ Student(...),Student(...),Student(...) ]
+👇🏻 هكذا **students** ملاحظة😊: تكتب وتعرف مصفوفة من نوع 
+```Swift
+var students: [Student] =
+    [
+        Student(...
+        Student(...
+        Student(...
+    ]
+```
 
 
 آخر موعد لرفع الكود\
