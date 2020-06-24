@@ -30,10 +30,11 @@
 - name: صالح شهاب,  track: Web,  gender: boy
 - name:محمد علي,  track: Android,  gender: boy
 
-> تكتب وتعرف مصفوفة من نوع  **students** هكذا
-var **students: [Student]** =
+> هكذا **students** تكتب وتعرف مصفوفة من نوع 
+
+var **students: [Student]** = 
 [
-       Student(...
+        Student(...
        ,Student(...
        ,Student(...
 ]
