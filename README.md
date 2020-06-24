@@ -33,11 +33,7 @@
 > هكذا **students** تكتب وتعرف مصفوفة من نوع 
 
 var **students: [Student]** = 
-[
-        Student(...
-       ,Student(...
-       ,Student(...
-]
+[ Student(...),Student(...),Student(...) ]
 
 
 آخر موعد لرفع الكود\
